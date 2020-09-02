@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.20)  2 SEP 2020 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.20)  2 SEP 2020 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1572,32 +1572,32 @@ LaTeX Info: Redefining \nameref on input line 86.
 \c@lemma=\count377
 \c@example=\count378
 \c@rem=\count379
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 25
-9.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-59.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-59.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-59.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-59.
+47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1618,10 +1618,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 374.
 Here is how much of TeX's memory you used:
  39576 strings out of 481240
  896066 string characters out of 5920403
- 1334851 words of memory out of 5000000
+ 1338851 words of memory out of 5000000
  54065 multiletter control sequences out of 15000+600000
  583452 words of font info for 133 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,6n,91p,503b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,91p,503b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on assignment1.dvi (1 page, 18944 bytes).
+Output written on assignment1.dvi (1 page, 19180 bytes).
