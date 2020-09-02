@@ -33,10 +33,20 @@ z2 = [1,6]
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-ax.plot3D(x1, y1, z1,color='r',marker='o')
-ax.plot3D(x2,y2,z2,color='b',marker='o')
+ax.plot3D(x1, y1, z1,label = "L1",color='r',marker='o')
+ax.plot3D(x2,y2,z2,label = "L2",color='b',marker='o')
+
+for x, y, z in zip(x1, y1, z1):
+    label = '(%d, %d, %d)' % (x, y, z)
+    ax.text(x, y, z, label)
+
+for x, y, z in zip(x2, y2, z2):
+    label = '(%d, %d, %d)' % (x, y, z)
+    ax.text(x, y, z, label)
+
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
+plt.legend()
 plt.savefig("lines.png")
 plt.show()
