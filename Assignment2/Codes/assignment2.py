@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d
+from mpl_toolkits.mplot3d import Axes3D
 
 def angle_lines(a,b):
     '''Function to find the angle between two lines given their direction vectors a and b'''
@@ -17,3 +19,24 @@ b = np.array([-30/11,1,-5])
 print("Angle between the two line in degrees is:")
 print(angle_lines(a,b))
 
+
+x1 = [-2,1]
+y1 = [42/11,2]
+z1 = [5,3]
+
+x2 = [-19/11,1]
+y2 = [6,5]
+z2 = [1,6]
+
+
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+ax.plot3D(x1, y1, z1,color='r',marker='o')
+ax.plot3D(x2,y2,z2,color='b',marker='o')
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+plt.savefig("lines.png")
+plt.show()
