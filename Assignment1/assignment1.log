@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.20)  2 SEP 2020 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.20)  2 SEP 2020 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1605,23 +1605,23 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 374.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 374.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
 
 (./assignment1.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 374.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 374.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 374.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
  39576 strings out of 481240
  896066 string characters out of 5920403
- 1343851 words of memory out of 5000000
+ 1340851 words of memory out of 5000000
  54065 multiletter control sequences out of 15000+600000
  583452 words of font info for 133 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,6n,91p,503b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on assignment1.dvi (1 page, 19268 bytes).
+Output written on assignment1.dvi (1 page, 16320 bytes).

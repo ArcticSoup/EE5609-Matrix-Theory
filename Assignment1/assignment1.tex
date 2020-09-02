@@ -264,72 +264,6 @@ https://github.com/ArcticSoup/EE5609-Matrix-Theory/tree/master/Assignment1
 %
 \section{Solution}
 \begin{flushleft}
-Consider the equation of the lines to be 
-\begin{center}
- $$\frac{x + 3}{3}=\frac{y-1}{5}=\frac{z+3}{4}=\lambda_1$$
- $$\frac{x + 1}{1}=\frac{y-4}{1}=\frac{z-5}{2}=\lambda_2$$
- \end{center}
- Using these equations, the matrix form of the lines can be expressed as
- \begin{center}
- $$
- \begin{pmatrix}
- x\\
- y\\
- z
- \end{pmatrix}
- =
- \begin{pmatrix}
- 3\lambda_1 - 3\\
- 5\lambda_1 + 5\\
- 4\lambda_1 - 3
- \end{pmatrix}
- $$
- and
- $$
- \begin{pmatrix}
- x\\
- y\\
- z
- \end{pmatrix}
- =
- \begin{pmatrix}
- \lambda_2 - 1\\
- \lambda_2 + 4\\
- 2\lambda_2 + 5
- \end{pmatrix}
- $$
- \end{center}
- Which can be expressed as follows
- \begin{equation}
- \vec{x} = 
- \begin{pmatrix}
- -3\\
-  5\\
-  3
- \end{pmatrix}
- +
- \lambda_1
- \begin{pmatrix}
-  3\\
-  5\\
-  4
- \end{pmatrix}
- \end{equation}
-  \begin{equation}
- \vec{x} = 
- \begin{pmatrix}
- -1\\
-  4\\
-  5
- \end{pmatrix}
- +
- \lambda_2
- \begin{pmatrix}
-  1\\
-  1\\
-  2
- \end{pmatrix}
- \end{equation}
  Using the definition of a line in co-ordinate geometry, we see from the above two equations, the direction vectors \textbf{a} and \textbf{b} of the two lines are
  \begin{equation*}
  \vec{a} = 
@@ -350,11 +284,11 @@ Consider the equation of the lines to be
  respectively.
  In order to find the angle between the two direction vectors, we use the definition of dot product,
  \begin{equation}
- \cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{\norm{\textbf{a}}\norm{\textbf{b}}}
+ \cos{\theta} = \frac{\vec{a}^T\vec{b}}{\norm{\textbf{a}}\norm{\textbf{b}}}
  \end{equation}
  Which gives us,
  \begin{equation*}
- \vec{a}\cdot\vec{b} = \vec{a}^T\vec{b} = 16
+ \vec{a}^T\vec{b} = 16
  \end{equation*}
  \begin{equation*}
  \norm{\textbf{a}} = \sqrt{50},  
