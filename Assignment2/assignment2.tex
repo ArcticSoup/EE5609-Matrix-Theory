@@ -83,7 +83,7 @@ columns=fullflexible
 %frame=single, 
 %breaklines=true
 %}
-
+\usepackage{graphicx}
 \begin{document}
 %
 
@@ -273,18 +273,14 @@ Rewriting the given lines as follows,
  Using the definition of a line in co-ordinate geometry, we see from the above two equations, the direction vectors \textbf{a} and \textbf{b} of the two lines are
  \begin{align}
  \vec{a} = 
- \begin{pmatrix}
- -3\\
+ \myvec{-3\\
   \frac{2}{7}p\\
-  2
- \end{pmatrix}
+  2}
 \\
   \vec{b} = 
- \begin{pmatrix}
- \frac{-3}{7}p\\
+ \myvec{\frac{-3}{7}p\\
   1\\
-  -5
- \end{pmatrix}
+  -5}
  \end{align}
  respectively.\\
  In order for the two lines to be perpendicular, their dot product should be equal to 0 which gives,
@@ -295,16 +291,18 @@ Rewriting the given lines as follows,
  \begin{align}
  \vec{a}^T\vec{b} = \frac{11}{7}p - 10
  \\
- \Longrightarrow \frac{11}{7}p - 10 = 0
+ \implies \frac{11}{7}p - 10 = 0
  \\  
- \Longrightarrow p = \frac{70}{11} 
+ \implies p = \frac{70}{11} 
  \\
- \Longrightarrow p \approx 6.364
+ \implies p \approx 6.364
  \end{align}
  
  \begin{figure}[h]
- \includegraphics[scale=1]{lines.eps}
+ \centering
+ \includegraphics[width=\columnwidth]{lines.png}
  \caption{The two lines plotted by substituting the value of $p$ found}
+ \label{fig:}
  \end{figure}
 \end{flushleft}
 \end{document}
