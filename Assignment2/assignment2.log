@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.20)  2 SEP 2020 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.20)  2 SEP 2020 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1621,10 +1621,10 @@ Package rerunfilecheck Info: File `assignment2.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 40073 strings out of 481239
- 903701 string characters out of 5920377
+ 40074 strings out of 481239
+ 903711 string characters out of 5920377
  1324870 words of memory out of 5000000
- 54511 multiletter control sequences out of 15000+600000
+ 54512 multiletter control sequences out of 15000+600000
  610664 words of font info for 196 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,14n,91p,503b,1085s stack positions out of 5000i,500n,10000p,200000b,80000s
